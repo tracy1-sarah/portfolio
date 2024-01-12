@@ -172,26 +172,32 @@ export const content = {
       {
         title: "Cocoa Research Institute of Ghana",
         image: crig,
+        link: "https://www.crig.org.gh/"
       },
       {
         title: "The Fairwork",
         image: thefairwork,
+        link: "https://www.thefairwork.com/"
       },
       {
         title: "The Fairwork Blog",
         image: blog,
+        link: "https://blog.thefairwork.com/"
       },
       {
         title: "DevTray",
         image: devtray,
+        link: "https://devtray.net/"
       },
       {
         title: "TheSpec Shop",
         image: spec,
+        link: "https://the-spec-shop.vercel.app/"
       },
       {
         title: "MoviePop",
         image: moviepop,
+        link: "https://popx-f5998.web.app/"
       },
     ],
   },
