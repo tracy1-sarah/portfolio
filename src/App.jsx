@@ -1,14 +1,17 @@
-import Hero from "./components/Hero";
+// import Hero from "./components/Hero";
 import Navbar from "./Layouts/Navbar";
-import Skills from "./components/Skills";
-import Service from "./components/Services";
-import Projects from "./components/Projects";
 import Testimonials from "./components/Testimonials";
-import Hireme from "./components/Hireme";
-import Contact from "./components/Contact";
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { lazy, Suspense } from "react";
+
+const Hero = lazy(() => import("./components/Hero"));
+const Skills = lazy(() => import("./components/Skills"));
+const Service = lazy(() => import("./components/Services"));
+const Projects = lazy(() => import("./components/Projects"));
+const Hireme = lazy(() => import("./components/Hireme"));
+const Contact = lazy(() => import("./components/Contact"));
 
 const App = () => {
   useEffect(() => {
@@ -19,7 +22,7 @@ const App = () => {
     });
   }, []);
   return (
-    <div className="">
+    <Suspense>
       <Navbar />
       <Hero />
       <Skills />
@@ -32,7 +35,7 @@ const App = () => {
         <h6 className="mb-3">Tracy | Tech Girlie</h6>
         <p>Tech Girlie © All Copyrights Reserved 2023</p>
       </footer>
-    </div>
+    </Suspense>
   );
 };
 

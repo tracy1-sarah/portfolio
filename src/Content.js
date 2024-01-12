@@ -1,4 +1,5 @@
 // import images
+
 import Hero_person from "./assets/images/Hero/TracyS.png";
 
 import html from "./assets/images/Skills/html.png";
@@ -38,11 +39,10 @@ import hire from "./assets/images/Hireme/hire.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
-import { MdArrowForward, MdCall } from "react-icons/md";
+import { MdArrowForward } from "react-icons/md";
 import { BsGithub, BsInstagram, BsLinkedin, BsTwitter, BsCodeSlash } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
-import { BiUser } from "react-icons/bi";
-import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
+import { RiServiceLine } from "react-icons/ri";
 import { GiSkills } from "react-icons/gi";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
 
@@ -172,32 +172,38 @@ export const content = {
       {
         title: "Cocoa Research Institute of Ghana",
         image: crig,
-        link: "https://www.crig.org.gh/"
+        link: "https://www.crig.org.gh/",
+        description: "A website for the Cocoa Research Institute of Ghana that provides all the information about the institute."
       },
       {
         title: "The Fairwork",
         image: thefairwork,
-        link: "https://www.thefairwork.com/"
+        link: "https://www.thefairwork.com/",
+        description: "TheFairWork is freelance platform that seeks to connect international clients with african talents to work on their short and long term projects remotely.Without the expense, effort, or administrative hassle, you can instantly hire pre- vetted talent from Africa. As a client, you have the opportunity to work with young, motivated talent at highly affordable rates. Sign up today as a client or freelancer on TheFairWork."
       },
       {
         title: "The Fairwork Blog",
         image: blog,
-        link: "https://blog.thefairwork.com/"
+        link: "https://blog.thefairwork.com/",
+        description: "The FairWork Blog is a sub-platform for the main Fairwork platform. TheFairWork blog provides trendy and latest news in the tech industry."
       },
       {
         title: "DevTray",
         image: devtray,
-        link: "https://devtray.net/"
+        link: "https://devtray.net/",
+        description: "A platform that connects learners with expert instructors,offering a diverse catalog of courses designed to enhance personal and professional growth in a flexible learning environment. Join us on a transformative journey of knowledge acquisition and personal growth, where education knows no boundaries."
       },
       {
         title: "TheSpec Shop",
         image: spec,
-        link: "https://the-spec-shop.vercel.app/"
+        link: "https://the-spec-shop.vercel.app/",
+        description: " A clothing brand e-commerce shop to be used for an upcoming personal clothing brand called TheSpec Apparel. Still in progress but worth sharing."
       },
       {
         title: "MoviePop",
         image: moviepop,
-        link: "https://popx-f5998.web.app/"
+        link: "https://popx-f5998.web.app/",
+        description: "A movie-details site that keeps you up to date with the latest movies,ranging from horror movies, sitcoms, animations, trendy movies etc."
       },
     ],
   },
@@ -236,7 +242,7 @@ export const content = {
     subtitle: "FOR YOUR PROJECTS",
     image1: hire,
     image2: hire,
-    para: "Let's collaborate and bring your digital vision to life",
+    para: "Let's sit, share a coffee, collaborate and bring your digital vision to life.",
     btnText: "Hire Me",
   },
   Contact: {
