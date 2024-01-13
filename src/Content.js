@@ -1,5 +1,4 @@
 // import images
-
 import Hero_person from "./assets/images/Hero/TracyS.png";
 
 import html from "./assets/images/Skills/html.png";
@@ -45,6 +44,7 @@ import { TbSmartHome } from "react-icons/tb";
 import { RiServiceLine } from "react-icons/ri";
 import { GiSkills } from "react-icons/gi";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
+import { lazy } from "react";
 
 export const content = {
   nav: [

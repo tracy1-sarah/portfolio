@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { content } from "../Content";
 
 const Hero = () => {
@@ -18,7 +17,7 @@ const Hero = () => {
           <div className="px-4">
             <h3 className="py-2">Heyaa, I am</h3>
             <h1 className="py-4 text-4xl">
-              {hero.firstName} <span className="#9333EA">{hero.LastName}</span>
+              {hero.firstName} <span>{hero.LastName}</span>
             </h1>
             <h1 className="text-3xl">{hero.title}</h1>
           </div>
@@ -27,7 +26,7 @@ const Hero = () => {
             <a
               href="public/file/TRACY-Resume.pdf"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
             >
               <button className="btn">{hero.btnText}</button>
             </a>

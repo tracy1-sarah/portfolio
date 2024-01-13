@@ -4,7 +4,7 @@ const Hireme = () => {
   const { Hireme } = content;
 
   return (
-    <section className="bg-bg_light_primary">
+    <section className="bg-white max-w-full mx-auto overflow-hidden">
       <div className="md:container px-5 pt-14">
         <h2 className="title" data-aos="fade-down">
           {Hireme.title}
@@ -13,7 +13,7 @@ const Hireme = () => {
           {Hireme.subtitle}
         </h4>
         <br />
-        <div className="flex items-center md:flex-row flex-col-reverse ">
+        <div className="flex items-center md:flex-row flex-col">
           <img
             src={Hireme.image1}
             alt="..."
@@ -33,7 +33,7 @@ const Hireme = () => {
           >
             <p className="leading-7">{Hireme.para}</p>
             <br />
-            <a id="contact">
+            <a href="#contact">
               <button className="btn bg-dark_primary text-white">
                 {Hireme.btnText}
               </button>
