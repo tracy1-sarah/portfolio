@@ -76,7 +76,7 @@ const Projects = () => {
             src={Projects.image}
             alt="..."
             data-aos="fade-right"
-            className="w-full md:max-w-[35vw] "
+            className="w-full md:max-w-[45vw]"
           />
           <Swiper
             pagination={{
