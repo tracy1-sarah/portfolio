@@ -15,8 +15,6 @@ import postman from "./assets/images/Skills/postman-icon.png";
 import bitbucket from "./assets/images/Skills/bitbucket-icon.png";
 import typescript from "./assets/images/Skills/typescript.png";
 
-
-
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
@@ -242,7 +240,7 @@ export const content = {
     subtitle: "FOR YOUR PROJECTS",
     image1: hire,
     image2: hire,
-    para: "Let's sit, share a coffee, collaborate and bring your digital vision to life.",
+    para: "Let's brew ideas over coffee, merge creativity, and turn your digital dreams into reality!",
     btnText: "Hire Me",
   },
   Contact: {

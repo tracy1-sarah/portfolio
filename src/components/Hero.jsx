@@ -24,7 +24,7 @@ const Hero = () => {
           <br />
           <div className="flex justify-end">
             <a
-              href="public/file/TRACY-Resume.pdf"
+              href={import.meta.env.BASE_URL + "file/TRACY-Resume.pdf"}
               target="_blank"
               rel="noreferrer"
             >

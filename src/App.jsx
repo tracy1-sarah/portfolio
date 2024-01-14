@@ -1,4 +1,3 @@
-// import Hero from "./components/Hero";
 import Navbar from "./Layouts/Navbar";
 import Testimonials from "./components/Testimonials";
 import { useEffect } from "react";
