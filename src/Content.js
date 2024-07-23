@@ -1,5 +1,5 @@
 // import images
-import Hero_person from "./assets/images/Hero/TracyS.png";
+import Hero_person from "./assets/images/Hero/tracy.png";
 
 import html from "./assets/images/Skills/html.png";
 import css from "./assets/images/Skills/css.png";
@@ -14,6 +14,17 @@ import vscode from "./assets/images/Skills/vscode.png";
 import postman from "./assets/images/Skills/postman-icon.png";
 import bitbucket from "./assets/images/Skills/bitbucket-icon.png";
 import typescript from "./assets/images/Skills/typescript.png";
+import next from "./assets/images/Skills/next.png";
+import aws from "./assets/images/Skills/aws.jpeg";
+import figma from "./assets/images/Skills/figma.png";
+import jest from "./assets/images/Skills/jest.png";
+import cypress from "./assets/images/Skills/cypress.png";
+import jenkins from "./assets/images/Skills/jenkins.jpeg";
+import ubuntu from "./assets/images/Skills/ubuntu.jpeg";
+import postgres from "./assets/images/Skills/postgres.jpeg";
+import jet from "./assets/images/Skills/jett.jpeg";
+import certfication from "./assets/images/Skills/aws-certified-cloud-practitioner.png"
+
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -68,7 +79,7 @@ export const content = {
     },
   ],
   hero: {
-    title: "A Front-End Developer",
+    title: "A Software Developer and a Certified Cloud Practitioner",
     firstName: "Tracy Sarah",
     LastName: "Afram-Owusu",
     btnText: "View Resume",
@@ -76,14 +87,13 @@ export const content = {
     hero_content: [
       {
         count: "3+",
-        text: "Years of experience in Web development",
+        text: "Years of experience in Web and Software development",
       },
 
     ],
   },
   skills: {
     title: "Tech Stacks",
-    subtitle: "Tools & Technologies",
     skills_content: [
       {
         name: "HTML5",
@@ -94,36 +104,74 @@ export const content = {
         logo: css,
       },
       {
+        name: "Tailwind CSS",
+        logo: tailwind,
+      },
+      {
         name: "JavaScript",
         logo: javascript,
+      },
+      {
+        name: "TypeScript",
+        logo: typescript,
       },
       {
         name: "React js",
         logo: reactjs,
       },
       {
-        name: "Tailwind CSS",
-        logo: tailwind,
-      },
-      {
-        name: "Firebase",
-        logo: firebase,
-      },
-      {
-        name: "Github",
-        logo: git,
+        name: "Next js",
+        logo: next,
       },
       {
         name: "React Native",
         logo: reactNative,
       },
       {
-        name: "Jira",
-        logo: jira,
+        name: "Jest",
+        logo: jest,
       },
       {
-        name: "Visual Studio Code",
-        logo: vscode,
+        name: "Cypress",
+        logo: cypress,
+      },
+      {
+        name: "PostgreSQL",
+        logo: postgres,
+      },
+    ],
+    icon: MdArrowForward,
+  },
+  tools: {
+    title: "Tools & Services",
+    tool: [
+      {
+        name: "Amazon Web Services",
+        logo: aws,
+      },
+      {
+        name: "Jenkins",
+        logo: jenkins,
+      },
+      {
+        name: "Ubuntu",
+        logo: ubuntu
+      },
+      {
+        name: "Firebase",
+        logo: firebase,
+      },
+      {
+        name: "Figma",
+        logo: figma,
+      },
+      {
+        name: "Github",
+        logo: git,
+      },
+      {
+        name: "Jira",
+        logo: jira,
       },
       {
         name: "Postman",
@@ -134,20 +182,23 @@ export const content = {
         logo: bitbucket,
       },
       {
-        name: "TypeScript",
-        logo: typescript,
+        name: "Visual Studio Code",
+        logo: vscode,
       },
-
-    ],
-    icon: MdArrowForward,
+      {
+        name: "Webstorm",
+        logo: jet,
+      },
+    ]
   },
+
   services: {
     title: "Services",
     subtitle: "WHAT I OFFER",
     service_content: [
       {
-        title: "Web Development",
-        para: "Experienced in creating responsive and dynamic web applications with a focus on user-centric design and functionality",
+        title: "Web & Software Development",
+        para: "Experienced in creating responsive and dynamic applications with a focus on user-centric design and functionality",
         logo: services_logo1,
       },
       {
@@ -246,6 +297,7 @@ export const content = {
   Contact: {
     title: "Contact",
     subtitle: "GET IN TOUCH",
+    image: certfication,
     social_media: [
       {
         text: "aframowusutracysarah@gmail.com",

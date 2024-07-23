@@ -85,3 +85,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #253d57 !important;
 }
+
+textarea{
+  resize: none;
+}
