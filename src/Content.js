@@ -93,7 +93,7 @@ export const content = {
     ],
   },
   skills: {
-    title: "Tech Stacks",
+    title: "Tech Stack",
     skills_content: [
       {
         name: "HTML5",

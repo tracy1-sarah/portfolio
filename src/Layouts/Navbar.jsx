@@ -23,7 +23,7 @@ const Navbar = () => {
       >
         {nav.map((item, i) => (
           <a
-            href={item.link}
+              href={item.link}
             onClick={() => setActive(i)}
             className={`text-xl p-2.5 rounded-full sm:cursor-pointer 
      ${i === active && "bg-dark_primary text-white"} `}

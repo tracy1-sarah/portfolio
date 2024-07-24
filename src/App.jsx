@@ -4,6 +4,8 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { lazy, Suspense } from "react";
+import { Analytics } from "@vercel/analytics/react"
+
 
 const Hero = lazy(() => import("./components/Hero"));
 const Skills = lazy(() => import("./components/Skills"));
@@ -22,6 +24,7 @@ const App = () => {
   }, []);
   return (
     <Suspense>
+        <Analytics/>
       <Navbar />
       <Hero />
       <Skills />
