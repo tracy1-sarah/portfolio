@@ -41,7 +41,7 @@ const Projects = () => {
   }
 
   return (
-    <section className="bg-bg_light_primary max-w-full mx-auto" id="projects">
+    <section className="bg-bg_light_primary min-h-screen max-w-full mx-auto" id="projects">
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
@@ -61,7 +61,7 @@ const Projects = () => {
         </div>
       </Modal>
 
-      <div className="md:container mx-auto px-5 pt-14 min-h-screen flex flex-col justify-between">
+      <div className="md:container mx-auto px-5 pt-14  h-full flex flex-col justify-between">
         <div>
           <h2 className="title" data-aos="fade-down">
             {Projects.title}
@@ -76,7 +76,7 @@ const Projects = () => {
             src={Projects.image}
             alt="..."
             data-aos="fade-right"
-            className="w-full md:max-w-[45vw]"
+            className="w-full md:max-w-[65vw]"
           />
           <Swiper
             pagination={{
@@ -91,9 +91,9 @@ const Projects = () => {
               {Projects.project_content.map((content, i) => (
                 <SwiperSlide
                   key={i}
-                  className="swiper-slide bg-white rounded-2xl p-5 border-b-8 border-[#FAF9FD] h-fit"
+                  className="swiper-slide bg-white rounded-xl p-5 border-b-8 border-[#FAF9FD] h-fit"
                 >
-                  <img src={content.image} alt="..." className="w-full" />
+                  <img src={content.image} alt="..." className="w-full rounded-2xl" />
                   <div className="flex flex-col gap-1 mt-2">
                     <h5 className="font-bold font-Poppins">{content.title}</h5>
                     <button

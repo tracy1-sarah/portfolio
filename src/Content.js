@@ -215,7 +215,7 @@ export const content = {
   },
   Projects: {
     title: "Projects",
-    subtitle: "MY CREATION",
+    subtitle: "MY CREATIONS",
     image: undraw,
     project_content: [
       {
